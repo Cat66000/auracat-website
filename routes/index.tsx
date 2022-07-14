@@ -19,6 +19,8 @@ export default function Home() {
       </p>
       <p class={tw`my-14 font-weight-900`}>
         My Twitter: <a href="https://twitter.com/AuraCat" class={tw`text-blue-500`}>@AuraCat</a>
+        <br/>
+        <a href="https://github.com/Cat66000/auracat-website" class={tw`text-blue-500`}>The website's Github repository</a>
       </p>
     </div>
   );
