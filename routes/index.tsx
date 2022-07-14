@@ -24,8 +24,8 @@ export default function Home() {
       </p>
       <p class={tw`my-14 font-weight-900`}>
         My Twitter:{" "}
-        <a href="https://twitter.com/AuraCat" class={tw`text-blue-500`}>
-          @AuraCat
+        <a href="https://twitter.com/Cat66000" class={tw`text-blue-500`}>
+          @Cat66000
         </a>
         <br />
         <a
