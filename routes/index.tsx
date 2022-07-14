@@ -13,10 +13,12 @@ export default function Home() {
       />
       <p class={tw`my-6`}>
         Welcome to AuraCat's personal website.
-      </p>
-      <p>
+      <br/>
         There's not much here for now, but more things are coming soon. :)
         (including support for other languages)
+      </p>
+      <p class={tw`my-14 font-weight-900`}>
+        My Twitter: <a href="https://twitter.com/AuraCat" class={tw`text-blue-500`}>@AuraCat</a>
       </p>
     </div>
   );
