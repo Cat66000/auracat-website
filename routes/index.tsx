@@ -7,15 +7,17 @@ export default function Home() {
   return (
     <div class={tw`p-4 mx-auto max-w-screen-md`}>
       <img
-        src="/logo.svg"
-        height="100px"
-        alt="the fresh logo: a sliced lemon dripping with juice"
+        //src="/logo.svg"
+        //height="100px"
+        //alt="the fresh logo: a sliced lemon dripping with juice"
       />
       <p class={tw`my-6`}>
-        Welcome to `fresh`. Try update this message in the ./routes/index.tsx
-        file, and refresh.
+        Welcome to AuraCat's personal website.
       </p>
-      <Counter start={3} />
+      <p>
+        There's not much here for now, but more things are coming soon. :)
+        (including support for other languages)
+      </p>
     </div>
   );
 }
