@@ -34,6 +34,11 @@ export default function Home() {
         >
           The website's Github repository
         </a>
+        <br />
+        My pronouns.page profile:{" "}
+        <a href="https://en.pronouns.page/@AuraCat" class={tw`text-blue-500`}>
+          @AuraCat
+        </a>
       </p>
     </div>
   );
