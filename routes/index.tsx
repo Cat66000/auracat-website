@@ -12,15 +12,28 @@ export default function Home() {
         //alt="the fresh logo: a sliced lemon dripping with juice"
       />
       <p class={tw`my-6`}>
-        Welcome to AuraCat's personal website.
-      <br/>
+        Welcome to AuraCat's personal website!
+        <br />
+        You might also know me under the name "Cat66" or "CloudCat"
+        <br />
+        <br />
         There's not much here for now, but more things are coming soon. :)
-        (including support for other languages)
+        <br />
+        Including support for other languages, and even possibly a blog as well
+        as other things
       </p>
       <p class={tw`my-14 font-weight-900`}>
-        My Twitter: <a href="https://twitter.com/AuraCat" class={tw`text-blue-500`}>@AuraCat</a>
-        <br/>
-        <a href="https://github.com/Cat66000/auracat-website" class={tw`text-blue-500`}>The website's Github repository</a>
+        My Twitter:{" "}
+        <a href="https://twitter.com/AuraCat" class={tw`text-blue-500`}>
+          @AuraCat
+        </a>
+        <br />
+        <a
+          href="https://github.com/Cat66000/auracat-website"
+          class={tw`text-blue-500`}
+        >
+          The website's Github repository
+        </a>
       </p>
     </div>
   );
